@@ -145,7 +145,7 @@ input, textarea {
 
 html { font-family: var(--ff-poppins); }
 
-body { background: url("https://raw.githubusercontent.com/4dvyte/4dvyte/main/Website-bg.jpg"); }
+body { background: url("https://raw.githubusercontent.com/4dvyte/4dvyte/main/Website-bg.jpg") center/cover no-repeat; }
 
 
 
