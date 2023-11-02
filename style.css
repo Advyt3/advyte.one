@@ -40,8 +40,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsla(45, 100%, 72%, 0.61), 
-    hsla(35, 100%, 68%, 0.452)
+    hsl(358.85deg 100% 73.96%), 
+    hsl(353.94deg 43.23% 55.1%)
   );
 
   /* solid */
@@ -53,7 +53,7 @@
   --smoky-black: hsla(0, 0%, 7%, 0.541);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsla(0, 0%, 98%, 0.938);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
+  --orange-yellow-crayola: #ff9179;
   --vegas-gold: hsl(45, 54%, 58%);
   --light-gray: rgba(214, 214, 214, 0.74);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
