@@ -559,7 +559,7 @@ main {
   .clients-item { min-width: calc(33.33% - 10px); }
 
   article.active {
-    height: 900px;
+    height: 1000px;
   }
 
   /**
@@ -651,7 +651,7 @@ main {
 
   .about-text { margin-bottom: 40px; }
   article.active {
-    height: 980px;
+    height: 1050px;
   }
 
 }
@@ -692,7 +692,7 @@ main {
    * CUSTOM PROPERTY
    */
   article.active {
-    height: 800px;
+    height: 850px;
   }
   :root {
 
@@ -809,7 +809,7 @@ main {
    * REUSED STYLE
    */
   article.active {
-    height: 800px;
+    height: 850px;
   }
   .sidebar, article { width: auto; }
 
