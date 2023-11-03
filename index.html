@@ -4,10 +4,8 @@
     <title>Advyte</title>
     <link rel="shortcut icon" href="./images/logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="./style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet">
   <style type="text/css" id="operaUserStyle"></style></head>
+  <script src="./script.js" defer></script>
   <body>
     <main>
       <div class="main-content">
@@ -33,7 +31,7 @@
               <li class="service-item">
                 <div class="service-content-box">
                   <h4 class="h4 service-item-title">Chilling on Discord</h4>
-                  <img align="left" width="300" height="150" src="https://lanyard.cnrad.dev/api/792994333350559774?borderRadius=15px&amp;hideDiscrim=true&amp;animated=true&amp;showDisplayName=true&amp;hideTimestamp=true">
+                  <img width="300" height="150" src="https://lanyard.cnrad.dev/api/792994333350559774?borderRadius=15px&amp;hideDiscrim=true&amp;animated=true&amp;showDisplayName=true&amp;hideTimestamp=true">
                 </div>
               </li>
             </ul>
@@ -74,11 +72,14 @@
         </li>
 <li class="service-item">
                 <div class="service-content-box">
-                    <h4 class="h4 service-item-title">Music</h4>
-                  <p class="service-item-text">Is there someone else? (slowed + reverb) by The Weeknd</p>
-<audio controls="" autoplay="">
-  <source src="https://github.com/4dvyte/4dvyte.github.io/raw/main/song1.mp3" type="audio/mpeg">Your browser does not support the audio element.</audio>
-                </div>
+                  <h2 class="playing">Now playing- <span class="song-name"></span></h2>
+                  <div class="controls">
+                    <button class="btn previous"><i class="ph-bold ph-skip-back"></i></button>
+                    <button class="btn play-pause">
+                      <i id="play-pause-icon" class="ph-bold ph-play"></i>
+                    </button>
+                    <button class="btn next"><i class="ph-bold ph-skip-forward"></i></button>
+                  </div>
               </li>  
             </ul>
           </section>
