@@ -558,7 +558,7 @@ main {
   .clients-item { min-width: calc(33.33% - 10px); }
 
   article.active {
-    height: 1000px;
+    height: 1200px;
   }
 
   /**
@@ -650,7 +650,7 @@ main {
 
   .about-text { margin-bottom: 40px; }
   article.active {
-    height: 1050px;
+    height: 1300px;
   }
 
 }
@@ -673,7 +673,7 @@ main {
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
   article.active {
-    height: 1050px;
+    height: 1250px;
   }
 }
 
