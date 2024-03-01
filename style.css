@@ -8,11 +8,11 @@
  */
 
 @font-face {
-  font-family: 'Pilowlava';
+  font-family: 'Kode Mono';
   font-style: normal;
   font-weight: 800;
   font-display: swap;
-  src: url(fonts/pilowlava-regular.woff) format('woff');
+  src: url(https://fonts.gstatic.com/s/kodemono/v1/A2BYn5pb0QgtVEPFnlYOnYLw.woff2) format('woff2');
 }
 @font-face {
   font-family: 'Poppins';
@@ -150,7 +150,7 @@ html { font-family: 'Poppins'; }
 
 body { background: url("https://raw.githubusercontent.com/4dvyte/4dvyte.github.io/main/images/bg.jpg") center/cover no-repeat; }
 
-.h2, .h3 { font-family: 'Pilowlava'; }
+.h2, .h3 { font-family: 'Kode Mono'; }
 
 
 
